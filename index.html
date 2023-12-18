@@ -27,144 +27,200 @@
   </head>
   <body>
     <!--Navbar section-->
-    <header>
-      <nav class="navbar navbar-expand-sm  navbar-light">
+    <!-- <header>
+      <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
         <div class="container navbar-container pt-2 pb-3">
-            <h1>Name</h1>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <h1>Name</h1>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
             <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <div class="navbar-nav">
-            <a class="nav-link" href="#mywork">My Work</a>
-            <a class="nav-link" href="#skills">Skills</a>
-            <a class="nav-link" href="#contact">Contact</a>
-        </div>
-        </div>
+              <a class="nav-link" href="#mywork">My Work</a>
+              <a class="nav-link" href="#skills">Skills</a>
+              <a class="nav-link" href="#contact">Contact</a>
+            </div>
+          </div>
         </div>
       </nav>
-    </header>
+    </header> -->
+   <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand" href="#page-top">Name</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <div class="navbar-nav">
+          <a class="nav-link" href="#mywork">Portfolios</a>
+          <a class="nav-link" href="#skills">Skills</a>
+          <a class="nav-link" href="#contact">Contact</a>
+        </div>
+      </div>
+    </div>
+   </nav>
+
     <!--navbar end-->
     <main>
-    <!--hero section-->
-    <section class="jumbotron text-center">
-    <div class="container  rounded-5">
-      <img class="rounded-circle"  src="images/avatar.jpg" />
-      <div>sample test here</div>
-    </div>
+      <!--hero section-->
+      <section class="jumbotron text-left mt-5">
+        <div class="container rounded-5">
+          <img class="rounded-circle" src="images/avatar.jpg" />
+          <div>sample test here</div>
+        </div>
+      </section>
+
+      <!--My work section-->
+      <section id="work">
+      <div class="container " >
+        <h2 class="text-center">Portfolio</h2>
+        <div class="row ">
+          <!-- Card 1 -->
+          <div class="col-md-4">
+            <div class="card  h-100">
+              <img src="images/prework.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Beginning</h5>
+                <p class="card-text">Embarking on the journey to my learning</p>
+                <a href="#" class="btn btn-primary">Click to View</a>
+              </div>
+            </div>
+          </div>
+          <!-- End card 1 -->
+  
+          <!-- Card 2 -->
+          <div class="col-md-4 ">
+            <div class="card   h-100">
+              <img src="images/semantic.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Web Accessibility</h5>
+                <p class="card-text">Importance of building semantic webpages for web accessibility.</p>
+                <a href="#" class="btn btn-primary">Click to View</a>
+              </div>
+            </div>
+          </div>
+          <!-- End card 2 -->
+  
+          <!-- Card 3 -->
+          <div class="col-md-4">
+            <div class="card  h-100">
+              <img src="images/portfolio.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Portfolio</h5>
+                <p class="card-text">Come see my portfolio and take a tour of my work</p>
+                <a href="#" class="btn btn-primary">Click to View</a>
+              </div>
+            </div>
+          </div>
+          <!-- End card 3 -->
+        </div>
+      </div>
     </section>
 
-    <!--My work section-->
-    <div>
-      <section id="mywork">
-        <div class="container-fluid content">
-          <h2 class="sectionHeading">My Work</h2>
-          <div class="row card-space">
-            <!--card 1-->
-            <div class="text-center">
-                <div class="card">
-              <img src="" class="card-img-top"/>
-            </div>
+      <!--end of mywork-->
+
+
+      <!--Skills section-->
+      <section id="skills">
+        <div class="container p-6 rounded-5 text-center d-flex flex-column">
+          <h2 class="mb-5">Skills</h2>
+
+          <div class="container">
+            <div class="row gy-5">
+              <div class="col-4 col-lg-2">
+                <p class="h6">HTML</p>
+                <img class="img-fluid" src="images/html.png" />
+              </div>
+
+              <div class="col-4 col-lg-2">
+                <p class="h5">CSS</p>
+                <img class="img-fluid" src="images/css.png" />
+              </div>
+
+              <div class="col-4 col-lg-2">
+                <p class="h5">JAVASCRIPT</p>
+                <img class="img-fluid" src="images/js.png" />
+              </div>
+
+              <div class="col-4 col-lg-2">
+                <p class="h5">REACT</p>
+                <img class="img-fluid" src="images/react.png" />
+              </div>
+
+              <div class="col-4 col-lg-2">
+                <p class="h5">API</p>
+                <img class="img-fluid" src="images/api.png" />
+              </div>
+
+              <div class="col-4 col-lg-2">
+                <p class="h5">GIT</p>
+                <img class="img-fluid" src="images/git.png" />
+              </div>
+
+              <div class="col-4 col-lg-2">
+                <p class="h5">AGILE</p>
+                <img class="img-fluid" src="images/agile.png" />
+              </div>
             </div>
           </div>
         </div>
       </section>
-    </div>
 
-    <!--Skills section-->
-    <section id="skills">
-        <div class="container p-6 rounded-5 text-center d-flex flex-column">
-            <h2 class="mb-5"> Skills</h2>
-            
-            <div class="container">
-                <div class="row gy-5">
-                    <div class="col-4 col-lg-2">
-                        <p class="h6 "> HTML </p>
-                        <img class="img-fluid  " src="images/html.png">
-                    </div>
-
-                    <div class="col-4 col-lg-2">
-                        <p class="h5 "> CSS </p>
-                        <img class="img-fluid  " src="images/css.png">
-                    </div>
-
-                    <div class="col-4 col-lg-2">
-                        <p class="h5"> JAVASCRIPT </p>
-                        <img class="img-fluid  " src="images/js.png">
-                    </div>
-
-                    <div class="col-4 col-lg-2">
-                        <p class="h5 "> REACT </p>
-                        <img class="img-fluid  " src="images/react.png">
-                    </div>
-
-                    <div class="col-4 col-lg-2">
-                        <p class="h5 "> API </p>
-                        <img class="img-fluid " src="images/api.png">
-                    </div>
-
-                    <div class="col-4 col-lg-2">
-                        <p class="h5 "> GIT </p>
-                        <img class="img-fluid " src="images/git.png">
-                    </div>
-
-                    <div class="col-4 col-lg-2">
-                        <p class="h5 "> AGILE </p>
-                        <img class="img-fluid " src="images/agile.png">
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-   <hr class="m-3">
-    <section id="#contact">
-      <div class="container text-center ">
-        <h2 >Contact</h2>
-        <div class="row text-center valueProp">
-          
-          <!-- <div class="sideAccent"></div> -->
-          <div class="col-md-4">
-            <div class="card">
-              <div class="card-body">
-                <h4>Email</h4>
-                <i class="fa fa-envelope mr-2" aria-hidden="true"></i
-                >name@email.com
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-4">
-            <div class="card">
-              <div class="card-body">
-                <h4>Phone</h4>
-                <i class="fa fa-phone-square mr-2" aria-hidden="true"></i> +44
-                11110 11110
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-4">
-            <div class="card">
-              <div class="card-body">
-                <h4>Linkedin</h4>
-                <i class="fa fa-linkedin-square mr-2" aria-hidden="true"></i>
-                Linked in url
-              </div>
-            </div>
+    
+     
+      
+      <hr class="m-3" />
+<section class="contact-section" id="contact">
+  <div class="container">
+    <h2 class="text-center">Contact</h2>
+    <div class="row">
+      <div class="col-md-4 mb-3 mb-md-0">
+        <div class="card py-1 h-100">
+          <div class="card-body text-center">
+            <h4 class="text-uppercase m-0">Email</h4>
+            <hr class="my-4" />
+            <i class="fa fa-envelope mr-2" aria-hidden="true"></i>name@email.com
           </div>
         </div>
       </div>
-    </section>
-</main>
- <!--footer section-->
- <div class="container">
-<footer class="page-footer font-small black">
-<div class="footer-copyright text-center py-3">
-    © 2020 Copyright: <a href="#">myportfolio.com</a>
-</div>
-</footer>
- </div>
+      <div class="col-md-4 mb-3 mb-md-0">
+        <div class="card py-1 h-100">
+          <div class="card-body text-center">
+            <h4 class="text-uppercase m-0">Phone</h4>
+            <hr class="my-4" />
+            <i class="fa fa-phone-square mr-2" aria-hidden="true"></i> +44 11110 11110
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-3 mb-md-0">
+        <div class="card py-1 h-100">
+          <div class="card-body text-center">
+            <h4 class="text-uppercase m-0">Linkedin</h4>
+            <hr class="my-4" />
+            <i class="fa fa-linkedin-square mr-2" aria-hidden="true"></i>
+            Linked in url
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+    </main>
+    <!--footer section-->
+
+    <footer class="container text-center py-3">
+      <h6>© myportfolio.com 2023 Copyright. All Rights Reserved.</h6>
+    </footer>
   </body>
 </html>
