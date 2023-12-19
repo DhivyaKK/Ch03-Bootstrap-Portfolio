@@ -21,6 +21,6 @@ Bootstrap is a front-end framework that provides pre-built HTML, CSS, and JavaSc
 
  6. Customizing bootstrap default styles with custom CSS styles.
 
-Link to github portfolio:
+Link to github portfolio: https://dhivyakk.github.io/ch03-bootstrap-portfolio/
 
-Link to github code:
+Link to github code: https://github.com/DhivyaKK/ch03-bootstrap-portfolio.git
