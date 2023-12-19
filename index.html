@@ -21,59 +21,44 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
 
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"
+      integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+      crossorigin="anonymous"
+    ></script>
+
     <link rel="stylesheet" href="css/style.css" />
 
     <title>Dhivya's Portfolio</title>
   </head>
   <body>
-    <div >
     <!--Navbar section-->
-    <!-- <header>
-      <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
-        <div class="container navbar-container pt-2 pb-3">
-          <h1>Name</h1>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <div class="navbar-nav">
-              <a class="nav-link" href="#mywork">My Work</a>
-              <a class="nav-link" href="#skills">Skills</a>
-              <a class="nav-link" href="#contact">Contact</a>
-            </div>
-          </div>
-        </div>
-      </nav>
-    </header> -->
-    <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+    <nav class="navbar bg-dark  fixed-top navbar-expand-sm">
       <div class="container">
-        <a class="navbar-brand" href="#page-top">Dhivya</a>
+        <h1 class="navbar-brand">Dhivya</h1>
         <button
-          class="navbar-toggler navbar-toggler-right"
+          class="navbar-toggler"
           type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarResponsive"
-          aria-controls="navbarResponsive"
+          data-toggle="collapse"
+          data-target="#navbar-list-5"
+          aria-controls="navbarNav"
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <div class="navbar-nav">
-            <a class="nav-link" href="#mywork">Portfolio</a>
-            <a class="nav-link" href="#skills">Skills</a>
-            <a class="nav-link" href="#contact">Contact</a>
-          </div>
+        <div class="navbar-collapse collapse show" id="navbar-list-5">
+          <ul class="navbar-nav pr-5 ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#mywork">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
         </div>
       </div>
     </nav>
@@ -81,30 +66,41 @@
     <!--navbar end-->
     <main>
       <!--hero section-->
-      <section class="jumbotron text-left mt-5 head-background">
-        <div class="container rounded-5 ">
-          
+      <section class="jumbotron text-center mt-5 head-background">
+        <div class="container rounded-5">
           <img class="rounded-circle" src="images/avatar.jpg" />
-          <div>sample test here</div>
+          <div>An aspiring front end developer.</div>
+          <div>Building bridges between imagination and functionality.</div>
         </div>
       </section>
 
       <!--My work section-->
       <section id="mywork">
-        <div class="container text-center rounded border border-warning mt-5 py-5">
+        <div
+          class="container text-center rounded border border-warning py-3 mt-5 p-5"
+        >
           <h2>Portfolio</h2>
-          <hr class="col-10 mx-auto border-warning mb-5">
+          <hr class="col-10 mx-auto border-warning mb-5" />
           <div class="row">
             <!-- Card 1 -->
             <div class="col-md-4">
               <div class="card h-100 text-center">
-                <img src="images/prework.jpg" class="card-img-top" alt="..." />
+                <img
+                  src="images/prework.jpg"
+                  class="card-img-top"
+                  alt="beginning"
+                />
                 <div class="card-body">
                   <h5 class="card-title">Beginning</h5>
                   <p class="card-text">
-                    Embarking on the journey to my learning
+                    Embarking on the journey to learn front end web development.
                   </p>
-                  <a href="#" class="btn btn-primary">Click to View</a>
+                  <a
+                    href="https://dhivyakk.github.io/prework-study-guide/"
+                    target="_blank"
+                    class="btn btn-primary"
+                    >Click to View</a
+                  >
                 </div>
               </div>
             </div>
@@ -113,14 +109,23 @@
             <!-- Card 2 -->
             <div class="col-md-4">
               <div class="card h-100 text-center">
-                <img src="images/semantic.jpg" class="card-img-top" alt="..." />
+                <img
+                  src="images/semantic.jpg"
+                  class="card-img-top"
+                  alt="web accessibility"
+                />
                 <div class="card-body">
                   <h5 class="card-title">Web Accessibility</h5>
                   <p class="card-text">
                     Importance of building semantic webpages for web
                     accessibility.
                   </p>
-                  <a href="#" class="btn btn-primary">Click to View</a>
+                  <a
+                    href="https://dhivyakk.github.io/ch01-code-refactor/"
+                    target="_blank"
+                    class="btn btn-primary"
+                    >Click to View</a
+                  >
                 </div>
               </div>
             </div>
@@ -132,14 +137,19 @@
                 <img
                   src="images/portfolio.jpg"
                   class="card-img-top"
-                  alt="..."
+                  alt="portfolio"
                 />
                 <div class="card-body">
                   <h5 class="card-title">Portfolio</h5>
                   <p class="card-text">
                     Come see my portfolio and take a tour of my work
                   </p>
-                  <a href="#" class="btn btn-primary">Click to View</a>
+                  <a
+                    href="https://dhivyakk.github.io/ch02-responsive-portfolio/"
+                    target="_blank"
+                    class="btn btn-primary"
+                    >Click to View</a
+                  >
                 </div>
               </div>
             </div>
@@ -150,163 +160,158 @@
       <!--end of mywork-->
 
       <!--Skills section-->
-      <section id="skills">
-        <div class="container text-center container  py-3 mt-5 p-5 border border-warning rounded ">
+      <section class="skills-section" id="skills">
+        <div
+          class="container text-center py-3 mt-5 p-5 border border-warning rounded"
+        >
           <h2>Skills</h2>
-          <hr class="col-10 mx-auto border-warning mb-5">
+          <hr class="col-10 mx-auto border-warning mb-5" />
           <!-- Row 1 -->
-          <div class="row valueProp bg-light">
+          <div class="row margin-tb bg-light">
             <div class="sideAccent"></div>
-            <div class="col-lg-2 col-md-6 text-center">
-              <img class="img-fluid" src="images/html.png" alt="HTML" />
+            <div class="col-lg-2 col-md-6 p-1">
+              <img
+                class="img-fluid rounded-circle"
+                src="images/html.png"
+                alt="Hypertext Markup Language"
+              />
             </div>
-            <div class="col-md-9 text-center">
+            <div class="col-md-9 p-1">
               <h3>HTML</h3>
               Semantic HTML for web accessibility , Bootstrap 5
             </div>
           </div>
-           <!-- Row 2 -->
-          <div class="row valueProp bg-light-blue">
+          <!-- Row 2 -->
+          <div class="row margin-tb bg-light-blue">
             <div class="sideAccent"></div>
-            <div class="col-lg-2 col-md-6 text-center">
-              <img class="img-fluid" src="images/css.png" alt="CSS" />
+            <div class="col-lg-2 col-md-6 p-1">
+              <img
+                class="img-fluid rounded-circle"
+                src="images/css.png"
+                alt="Cascade Style Sheets"
+              />
             </div>
-            <div class="col-md-9 text-center">
+            <div class="col-md-9 p-1">
               <h3>Cascade Style Sheets</h3>
-              Semantic HTML for web accessibility , Responsive webpages using
-              media queries BootStrap 5
+              Media queries
             </div>
           </div>
-           <!-- Row 3 -->
-          <div class="row valueProp bg-light-green">
+          <!-- Row 3 -->
+          <div class="row margin-tb bg-light-green">
             <div class="sideAccent"></div>
-            <div class="col-lg-2 col-md-6 text-center">
+            <div class="col-lg-2 col-md-6 p-1">
               <img
                 class="img-fluid rounded-circle"
                 src="images/js.png"
                 alt="java script"
               />
             </div>
-            <div class="col-md-9 text-center">
+            <div class="col-md-9 p-1">
               <h3>JavaScript</h3>
-              Semantic HTML for web accessibility , Bootstrap 5
+              User interactivity with webpage. Variables, Objects, Datatypes,
+              Logical and Arithmetic Operators, Loops, Functions, DOM
+              Manipulation
             </div>
           </div>
-           <!-- Row 4 -->
-          <div class="row valueProp bg-light-cyan">
+          <!-- Row 4 -->
+          <div class="row margin-tb bg-light-cyan">
             <div class="sideAccent"></div>
-            <div class="col-lg-2 col-md-6 text-center">
+            <div class="col-lg-2 col-md-6 p-1">
               <img
                 class="img-fluid rounded-circle"
                 src="images/react.png"
                 alt="react"
               />
             </div>
-            <div class="col-md-9 text-center">
+            <div class="col-md-9 p-1">
               <h3>React</h3>
-              Semantic HTML for web accessibility , Bootstrap 5
+              Open source front end desiging framework using javascript.
+              Variables and scopig, Arrays and objects, Functions, DOM
+              Manipulation and event handlers
             </div>
           </div>
-           <!-- Row 5 -->
-          <div class="row valueProp bg-light-orange">
+          <!-- Row 5 -->
+          <div class="row margin-tb bg-light-orange">
             <div class="sideAccent"></div>
-            <div class="col-lg-2 col-md-6 text-center">
-              <img class="img-fluid" src="images/git.png" alt="react" />
+            <div class="col-lg-2 col-md-6 p-1">
+              <img
+                class="img-fluid rounded-circle"
+                src="images/git.png"
+                alt="Git and Github"
+              />
             </div>
-            <div class="col-md-9 text-center">
+            <div class="col-md-9 p-1">
               <h3>GIT and GitHub</h3>
-              Semantic HTML for web accessibility , Bootstrap 5
+              Git is an open source version control tool. Gitbash commands.
+              GitHub is a code hosting platform for version control and
+              collaboration. GitHub essentials like repositories, branches,
+              commits, and pull requests.
             </div>
           </div>
-           <!-- Row 6 -->
-          <div class="row valueProp bg-light-yellow">
+          <!-- Row 6 -->
+          <div class="row margin-tb bg-light-yellow">
             <div class="sideAccent"></div>
-            <div class="col-lg-2 col-md-6 text-center">
-              <img class="img-fluid" src="images/agile.png" alt="react" />
+            <div class="col-lg-2 col-md-6 p-1">
+              <img
+                class="img-fluid rounded-circle"
+                src="images/agile.png"
+                alt="Agile Software Development"
+              />
             </div>
-            <div class="col-md-9 text-center">
+            <div class="col-md-9 p-1">
               <h3>Agile Software Development</h3>
-              Semantic HTML for web accessibility , Bootstrap 5
+              Project scoping, design , build, test and release minimum viable
+              product (MVP) in an interative approach.
             </div>
           </div>
-           <!-- Row 7 -->
-          <div class="row valueProp bg-light">
+          <!-- Row 7 -->
+          <div class="row margin-tb bg-light">
             <div class="sideAccent"></div>
-            <div class="col-lg-2 col-md-6 text-center">
-              <img class="img-fluid" src="images/api.png" alt="react" />
+            <div class="col-lg-2 col-md-6 p-1">
+              <img
+                class="img-fluid rounded-circle"
+                src="images/api.png"
+                alt="application programming interface"
+              />
             </div>
-            <div class="col-md-9 text-center">
+            <div class="col-md-9 p-1">
               <h3>API</h3>
-              Semantic HTML for web accessibility , Bootstrap 5
+              Application programming interface to allow applications to talk to
+              each other. Integrate third party APIs to consume data into the
+              application.
             </div>
           </div>
-
-          <!--End row 2-->
-
-          <!-- <div class="container">
-            <div class="row gy-5">
-              <div class="col-4 col-lg-2">
-                <p class="h6">HTML</p>
-                <img class="img-fluid" src="images/html.png" />
-              </div>
-
-              <div class="col-4 col-lg-2">
-                <p class="h5">CSS</p>
-                <img class="img-fluid" src="images/css.png" />
-              </div>
-
-              <div class="col-4 col-lg-2">
-                <p class="h5">JAVASCRIPT</p>
-                <img class="img-fluid" src="images/js.png" />
-              </div>
-
-              <div class="col-4 col-lg-2">
-                <p class="h5">REACT</p>
-                <img class="img-fluid" src="images/react.png" />
-              </div>
-
-              <div class="col-4 col-lg-2">
-                <p class="h5">API</p>
-                <img class="img-fluid" src="images/api.png" />
-              </div>
-
-              <div class="col-4 col-lg-2">
-                <p class="h5">GIT</p>
-                <img class="img-fluid" src="images/git.png" />
-              </div>
-
-              <div class="col-4 col-lg-2">
-                <p class="h5">AGILE</p>
-                <img class="img-fluid" src="images/agile.png" />
-              </div>
-            </div>
-          </div> -->
         </div>
       </section>
 
       <section class="contact-section" id="contact">
-        <div class="container text-center rounded border border-warning py-5">
-          <h2 >Contact</h2>
-          <hr class="col-10  mx-auto border-warning mb-5">
+        <div
+          class="container text-center py-3 mt-5 p-5 rounded border border-warning"
+        >
+          <h2>Contact</h2>
+          <hr class="col-10 mx-auto border-warning mb-5" />
           <div class="row">
             <div class="col-md-4 mb-3 mb-md-0">
               <div class="card py-1 h-100">
-                <div class="card-body ">
+                <div class="card-body">
                   <h4 class="text-uppercase m-0">Email</h4>
                   <hr class="my-4" />
                   <a href="mailto:mail@mail.com">
-                  <i class="fa fa-envelope mr-2" aria-hidden="true"></i>name@email.com</a>
+                    <i class="fa fa-envelope mr-2" aria-hidden="true"></i
+                    >name@email.com</a
+                  >
                 </div>
               </div>
             </div>
             <div class="col-md-4 mb-3 mb-md-0">
               <div class="card py-1 h-100">
                 <div class="card-body">
-                  <h4 class="text-uppercase m-0 ">Phone</h4>
+                  <h4 class="text-uppercase m-0">Phone</h4>
                   <hr class="my-4" />
                   <a href="tel:+44 11110 11110">
-                  <i class="fa fa-phone-square mr-2" aria-hidden="true"></i> +44
-                  11110 11110</a>
+                    <i class="fa fa-phone-square mr-2" aria-hidden="true"></i>
+                    +44 11110 11110</a
+                  >
                 </div>
               </div>
             </div>
@@ -316,8 +321,12 @@
                   <h4 class="text-uppercase m-0">Linkedin</h4>
                   <hr class="my-4" />
                   <a href="https://www.linkedin.com/" target="_blank">
-                  <i class="fa fa-linkedin-square mr-2" aria-hidden="true"></i>
-                  Linked in url</a>
+                    <i
+                      class="fa fa-linkedin-square mr-2"
+                      aria-hidden="true"
+                    ></i>
+                    Linkedin</a
+                  >
                 </div>
               </div>
             </div>
@@ -326,11 +335,10 @@
       </section>
     </main>
     <!--footer section-->
-    <div class="container-fluid text-center py-3 mt-5 ">
-    <footer >
-      <h6>© myportfolio.com 2023 Copyright. All Rights Reserved.</h6>
-    </footer>
-  </div>
-</div>
+    <div class="container-fluid text-center py-3 mt-5">
+      <footer>
+        <h6>© myportfolio.com 2023 Copyright. All Rights Reserved.</h6>
+      </footer>
+    </div>
   </body>
 </html>
