@@ -8,6 +8,7 @@
 :root{
   --primary:rgb(38, 32, 44);
   --nav: rgb(43, 40, 40);
+  --tealblue: #64a19d;
   
 }
 
@@ -39,7 +40,7 @@ body {
 }
 
 .sideAccent {
-  background: #007bff;
+  background: var(--tealblue);
   width: 10px;
   
 }
