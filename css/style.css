@@ -1,7 +1,20 @@
-html,
+
+*{
+  box-sizing: border-box;
+}
+
+/*css variables*/
+
+:root{
+  --primary:rgb(38, 32, 44);
+  --nav: rgb(43, 40, 40);
+  
+}
+
 body {
-  width: 100%;
-  height: 100%;
+  background-color: var(--primary);
+
+  color: #fdcc52;
 }
 
 body {
@@ -9,34 +22,65 @@ body {
 }
 
 /*portfolios*/
-.content{
-    padding: 50px;
-}
-
-/* .card-space {
-  padding: 0px 30px 30px 30px;
-} */
 
  #work .card{
-    border: 0;
-    border: 0.15rem solid #64a19d;
+     border: 0.15rem solid #64a19d;
  }
 
 /*end of portfolios*/
 
+/*skills section*/
 .valueProp {
   margin-top: 15px;
   margin-bottom: 15px;
 }
-
 .m-0 {
   margin: 0 !important;
 }
 
+.sideAccent {
+  background: #007bff;
+  width: 10px;
+  
+}
+.img-fluid{
+  max-width: 75%;
+}
+
+.bg-light-blue{
+  background-color: rgb(215, 248, 255);
+}
+.bg-light-green{
+  background-color: rgb(221, 236, 221);
+}
+.bg-light-cyan{
+  background-color: rgb(188, 236, 255);
+}
+.bg-light-orange{
+  background-color: rgb(255, 236, 200);
+}
+.bg-light-yellow{
+  background-color: rgb(250, 250, 192);
+}
+
+/*End of skills section*/
+
 /* Navigation bar styles ============= */
+
+.head-background{
+  /* background-image: url(/images/wood.jpg); */
+  background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(105, 95, 95));
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
 #mainNav {
   border-color: rgba(34, 34, 34, 0.05);
-  background-color: #64a19d;
+  background-color: var(--primary); /*#64a19d;*/
   transition: all 0.35s;
   font-family: "Catamaran", "Helvetica", "Arial", "sans-serif";
   font-weight: 200;
@@ -66,6 +110,9 @@ body {
 .contact-section .card {
   border: 0;
   border: 0.25rem solid #64a19d;
+  color: black;
+  
+
 }
 .contact-section .card h4 {
   font-size: 0.8rem;
@@ -79,4 +126,15 @@ body {
   border-color: #64a19d;
   border-width: 0.25rem;
   width: 3rem;
+}
+
+.contact-section .card a{
+  color: black;
+}
+
+.contact-section .card a:hover{
+
+  transform: scale(1.50);
+  background-color: rgb(212, 207, 207);
+  
 }
