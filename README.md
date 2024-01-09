@@ -1,7 +1,7 @@
 # Portfolio using bootstrap 
 Bootstrap is a front-end framework that provides pre-built HTML, CSS, and JavaScript components, making it easier to create a cohesive design with responsive elements.
 
-## Planning and set
+## Planning and set up
  Wireframing : using pen and paper or wireframe tools.
 
  Bootstrap integration : Include the bootstrap link to its CDN in the HTML to access components and styles. In this project, I have used Bootstrap 4 to implement Jumbotron feature
